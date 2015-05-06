@@ -1,3 +1,4 @@
+# Exercise 7: More Printing
 print "Mary had a little lamd."
 print "Its fleece was white as %s." % 'snow'
 print "And everywhere that Mary went"

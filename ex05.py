@@ -1,3 +1,5 @@
+# Exercise 5: More Variables and Printing
+
 # Variables
 name = 'Paul Carroty'
 age = 35 #not a lie
