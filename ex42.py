@@ -51,28 +51,28 @@ class Halibut(Fish):
     pass
 
 
-## rover is-a Dog
+## Set rover to an instance of Class Dog, which has-a attribute of name set to Rover.  Class Dog was called with params self and Rover.
 rover = Dog("Rover")
 
-## sat is-a Cat
+## Set set to an instance of Class Cat and has-a attribute name set to Sat. Class Cat was called with params self and Sat.
 sat = Cat("Sat")
 
-## mary is-a Person
+## set mary to an instance of Person and has-a attribute name set to Mary
 mary = Person("Mary")
 
-## pet attribute of mary is-a sat
+## from mary get the pet attribute and set it to sat
 mary.pet = sat
 
-## frank is-a Employee instance
+## frank is-a Employee instance has-a attribute name of Frank and attribute salary of 120000
 frank = Employee("Frank", 120000)
 
 ## pet attribute of frank is-a rover
 frank.pet = rover
 
-## flipper is Fish instance
+## flipper is-a Fish instance
 flipper = Fish()
 
-## crouse is Salmon instance
+## crouse is-a Salmon instance
 crouse = Salmon()
 
 ## harry is Halibut instance
