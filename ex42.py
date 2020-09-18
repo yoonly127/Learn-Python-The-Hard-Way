@@ -54,7 +54,7 @@ class Halibut(Fish):
 ## Set rover to an instance of Class Dog, which has-a attribute of name set to Rover.  Class Dog was called with params self and Rover.
 rover = Dog("Rover")
 
-## Set set to an instance of Class Cat and has-a attribute name set to Sat. Class Cat was called with params self and Sat.
+## Set sat to an instance of Class Cat and has-a attribute name set to Sat. Class Cat was called with params self and Sat.
 sat = Cat("Sat")
 
 ## set mary to an instance of Person and has-a attribute name set to Mary
